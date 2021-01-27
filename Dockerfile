@@ -8,4 +8,4 @@ RUN pip install pymongo
 
 COPY . .
 
-CMD [ "python", "./mongodb_client_sample.py" ]
+CMD [ "python", "./test.py" ]
