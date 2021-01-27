@@ -1,0 +1,21 @@
+    1  [2021-01-27 21:09:35] sudo passwd root
+    2  [2021-01-27 21:09:35] su
+    3  [2021-01-27 21:09:35] sudo apt update
+    4  [2021-01-27 21:09:35] sudo sed -i 's/us.archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+    5  [2021-01-27 21:09:35] history
+    6  [2021-01-27 21:09:35] sudo apt dist-upgrade
+    7  [2021-01-27 21:09:35] sudo apt install git vim
+    8  [2021-01-27 21:09:35] sudo apt autoremove
+    9  [2021-01-27 21:09:35] sudo apt-get install -y ssh
+   10  [2021-01-27 21:09:35] reboot
+   11  [2021-01-27 21:09:44] docker -v
+   12  [2021-01-27 21:10:25] sudo apt update
+   13  [2021-01-27 21:10:36] sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   14  [2021-01-27 21:11:05] sudo chmod +x /usr/local/bin/docker-compose
+   15  [2021-01-27 21:11:20] sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+   16  [2021-01-27 21:11:25] docker-compose --version
+   17  [2021-01-27 21:12:01] mkdir workspace 
+   18  [2021-01-27 21:12:04] cd workspace/
+   19  [2021-01-27 21:12:25] mkdir docker_mongodb
+   20  [2021-01-27 21:12:30] cd docker_mongodb/
+   21  [2021-01-27 21:13:00] history > 0127_history.txt
