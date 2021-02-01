@@ -1,0 +1,16 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongodb
+    hostname: mongodb
+    ports:
+      - 26016:27017
+    volumes:
+    - /etc/mongodb/mongod.conf:/etc/mongod.conf
+    - /etc/mongodb/data/db/:/data/db/
+    env_file:
+      - .env
+    # command: ["mongod", "-f", "/etc/mongod.conf"]
